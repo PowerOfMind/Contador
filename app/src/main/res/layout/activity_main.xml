@@ -4,20 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="1">
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.5"
             android:text="+1"
-            android:id="@+id/suma"
+            android:id="@+id/masUno"
             android:textSize="100sp"
             android:layout_gravity="center"/>
 
@@ -31,6 +28,6 @@
             android:id="@+id/resultado"
             android:layout_gravity="center"
             android:textAlignment="center"/>
-    </LinearLayout>
+
 
 </LinearLayout>

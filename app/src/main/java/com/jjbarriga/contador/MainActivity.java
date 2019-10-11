@@ -23,7 +23,7 @@ abstract class MainActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     public void instancias(){
-        suma = this.findViewById(R.id.suma);
+        suma = this.findViewById(R.id.masUno);
         resultado = this.findViewById(R.id.resultado);
     }
 
@@ -34,7 +34,7 @@ abstract class MainActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.suma:
+            case R.id.masUno:
                 // resultado++;
                 /*Toast.makeText(getApplicationContext(),"Pulsado boton1", Toast.LENGTH_SHORT).show();
                 etiqueta.setText("boton1 pulsado");*/
